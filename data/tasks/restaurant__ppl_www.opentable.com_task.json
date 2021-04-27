@@ -1,0 +1,27 @@
+{
+  "start_url": "https://www.opentable.com/",
+  "query_words": [
+    "reserve",
+    "a",
+    "table",
+    "for",
+    "4",
+    "people"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "party size",
+    ""
+  ],
+  "demonstration": [
+    "select #3# @ id(\"dtp-picker-170\")/form[1]/div[1]/div[1]/select[1] || /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/oc-component[1]/div[1]/form[1]/div[1]/div[1]/select[1]",
+    "click ## @ id(\"dtp-picker-170\")/form[1]/input[2] || /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/oc-component[1]/div[1]/form[1]/input[2]"
+  ],
+  "target_text_res": [],
+  "target_url_res": [
+    "covers=4"
+  ]
+}

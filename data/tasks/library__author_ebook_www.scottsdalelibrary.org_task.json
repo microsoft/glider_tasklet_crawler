@@ -1,0 +1,33 @@
+{
+  "start_url": "http://scottsdale.polarislibrary.com/polaris/search/",
+  "query_words": [
+    "find",
+    "ebooks",
+    "by",
+    "author",
+    "Umberto Eco"
+  ],
+  "query_annotations": [
+    "",
+    "format",
+    "",
+    "",
+    "name"
+  ],
+  "demonstration": [
+    "input_text #Umberto Eco# @ id(\"q\") || /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]",
+    "click ## @ id(\"1\")/div[1]/form[1]/div[1]/div[1]/button[1] || /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/button[1]",
+    "click ## @ id(\"searchOptions\") || /html[1]/body[1]/div[2]/div[1]/div[1]/main[1]/div[1]/article[1]/section[1]/form[1]/div[3]/div[1]/div[1]/a[1]",
+    "select #2# @ id(\"dropdownSearchBy\") || /html[1]/body[1]/div[2]/div[1]/div[1]/main[1]/div[1]/article[1]/section[1]/form[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/select[1]",
+    "click ## @ id(\"buttonDoSearchLabel\") || /html[1]/body[1]/div[2]/div[1]/div[1]/main[1]/div[1]/article[1]/section[1]/form[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/label[1]",
+    "click ## @ id(\"facet_1_2\") || /html[1]/body[1]/div[2]/div[1]/div[1]/main[1]/div[1]/aside[1]/section[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[3]/div[1]/label[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url_res": [
+    "term=Umberto%20Eco",
+    "by=AU",
+    "limit=TOM=ebk"
+  ],
+  "target_url": "http://scottsdale.polarislibrary.com/polaris/search/searchresults.aspx?ctx=1.1033.0.0.3&type=Keyword&term=Umberto%20Eco&by=AU&sort=RELEVANCE&limit=TOM=ebk&query=&page=0&searchid=7"
+
+}

@@ -1,0 +1,29 @@
+{
+  "start_url": "https://kzpl.ent.sirsi.net/",
+  "query_words": [
+    "find",
+    "books",
+    "by",
+    "author",
+    "Umberto Eco"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "name"
+  ],
+  "demonstration": [
+    "input_text #Umberto Eco# @ id(\"q\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[2]/div[3]/input[1]",
+    "select #2# @ id(\"restrictionDropDown\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/form[1]/select[1]",
+    "click ## @ id(\"searchButton\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[2]/div[4]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://kzpl.ent.sirsi.net/client/en_US/KPL/search/results?qu=Umberto+Eco&te=&lm=ALLLIBS&rt=false%7C%7C%7CAUTHOR%7C%7C%7CAuthor",
+  "target_url_res": [
+    "qu=Umberto+Eco",
+    "AUTHOR"
+  ],
+  "replayable": true
+}

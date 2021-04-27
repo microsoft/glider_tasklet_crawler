@@ -1,0 +1,34 @@
+{
+  "start_url": "https://delfriscosgrille.com/reservation/",
+  "query_words": [
+    "reserve",
+    "a",
+    "table",
+    "for",
+    "4",
+    "people",
+    "on",
+    "2019-07-27"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "party size",
+    "",
+    "",
+    "date"
+  ],
+  "demonstration": [
+    "select #3# @ id(\"party_size\") || /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/form[1]/div[4]/select[1]",
+    "input_text #2019-07-27# @ id(\"date\") || /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/form[1]/div[2]/input[1]",
+    "click ## @ id(\"check-availability\") || /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/form[1]/div[5]/button[1]"
+  ],
+  "target_text_res": [
+  ],
+  "necessary_actions": [
+    "select #3# @ id(\"party_size\")",
+    "input_text #2019-07-27# @ id(\"date\")"
+  ]
+}

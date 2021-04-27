@@ -1,0 +1,31 @@
+{
+  "start_url": "https://www.shulas.com/reservations/",
+  "query_words": [
+    "reserve",
+    "a",
+    "table",
+    "for",
+    "4",
+    "people"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "party size",
+    ""
+  ],
+  "demonstration": [
+    "select #3# @ id(\"PartySize\") || /html[1]/body[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/form[1]/table[1]/tbody[1]/tr[2]/th[2]/select[1]",
+    "click ## @ id(\"submit\") || /html[1]/body[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/form[1]/table[1]/tbody[1]/tr[5]/td[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url_res": [
+    "notfound"
+  ],
+  "necessary_actions": [
+    "select #3# @ id(\"PartySize\")",
+    "click ## @ id(\"submit\")"
+  ]
+}

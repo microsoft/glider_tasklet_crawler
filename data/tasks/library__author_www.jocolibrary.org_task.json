@@ -1,0 +1,29 @@
+{
+  "start_url": "https://www.jocolibrary.org/",
+  "query_words": [
+    "find",
+    "books",
+    "by",
+    "author",
+    "Umberto Eco"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "name"
+  ],
+  "demonstration": [
+    "input_text #Umberto Eco# @ id(\"globalQuery\") || /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]",
+    "select #2# @ id(\"t\") || /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/select[1]",
+    "click ## @ id(\"globalSearch\")/div[1]/input[2] || /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[2]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://jocolibrary.bibliocommons.com/v2/search?query=Umberto+Eco&searchType=author",
+  "target_url_res": [
+    "query=Umberto+Eco",
+    "searchType=author"
+  ],
+  "replayable": true
+}

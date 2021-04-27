@@ -1,0 +1,14 @@
+{
+  "feature_cache_size": 5000,
+  "n_backup_episodes": 50,
+  "n_train_episodes": 200,
+  "n_test_episodes": 100,
+  "train_tasks": [".*"],
+  "test_tasks": [
+    "shopping__find_women_shoes_www.amazon.com_*",
+    "travel__get_direction_walk_www.google.com_*",
+    "flight__roundtrip_www.aa.com_*",
+    "movie__ticket_place_https://www.fandango.com_*",
+    "unit_conversion__convert_length_www.digitaldutch.com_*"
+  ]
+}

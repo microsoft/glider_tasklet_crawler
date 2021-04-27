@@ -1,0 +1,36 @@
+{
+  "start_url": "https://www.bertuccis.com/reservations",
+  "query_words": [
+    "reserve",
+    "a",
+    "table",
+    "for",
+    "4",
+    "people",
+    "at",
+    "8:00 pm"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "party size",
+    "",
+    "",
+    "time"
+  ],
+  "demonstration": [
+    "select #3# @ id(\"reservation-party-size\") || /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[3]/div[1]/select[1]",
+    "select #18# @ id(\"reservation-time\") || /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[2]/div[1]/select[1]",
+    "click ## @ id(\"btn-search-availability\") || /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[3]/div[1]/input[1]"
+  ],
+  "target_text_res": [
+    "Please select a location",
+    "4 People"
+  ],
+  "necessary_actions": [
+    "select #3# @ id(\"reservation-party-size\")",
+    "select #18# @ id(\"reservation-time\")"
+  ]
+}

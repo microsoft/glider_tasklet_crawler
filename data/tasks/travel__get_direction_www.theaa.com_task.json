@@ -1,0 +1,35 @@
+{
+  "start_url": "http://www.theaa.com/route-planner/index.jsp",
+  "query_words": [
+    "Get",
+    "directions",
+    "from",
+    "Microsoft Building 99",
+    "to",
+    "Bellevue Square"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "starting point",
+    "",
+    "destination"
+  ],
+  "demonstration": [
+    "click ## @ id(\"qcCmpButtons\")/button[1] || /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/button[1]",
+    "input_text #Microsoft Building 99# @ /html[1]/body[1]/app-root[1]/div[1]/app-route-planner[1]/div[1]/div[1]/aa-route-input[1]/div[1]/app-google-place-search[1]/div[1]/div[1]/div[2]/input[1] || /html[1]/body[1]/app-root[1]/div[1]/app-route-planner[1]/div[1]/div[1]/aa-route-input[1]/div[1]/app-google-place-search[1]/div[1]/div[1]/div[2]/input[1]",
+    "press_enter ## @ /html[1]/body[1]/app-root[1]/div[1]/app-route-planner[1]/div[1]/div[1]/aa-route-input[1]/div[1]/app-google-place-search[1]/div[1]/div[1]/div[2]/input[1] || /html[1]/body[1]/app-root[1]/div[1]/app-route-planner[1]/div[1]/div[1]/aa-route-input[1]/div[1]/app-google-place-search[1]/div[1]/div[1]/div[2]/input[1]",
+    "input_text #Bellevue Square# @ /html[1]/body[1]/app-root[1]/div[1]/app-route-planner[1]/div[1]/div[1]/aa-route-input[1]/div[1]/app-google-place-search[2]/div[1]/div[1]/div[2]/input[1] || /html[1]/body[1]/app-root[1]/div[1]/app-route-planner[1]/div[1]/div[1]/aa-route-input[1]/div[1]/app-google-place-search[2]/div[1]/div[1]/div[2]/input[1]",
+    "press_enter ## @ /html[1]/body[1]/app-root[1]/div[1]/app-route-planner[1]/div[1]/div[1]/aa-route-input[1]/div[1]/app-google-place-search[2]/div[1]/div[1]/div[2]/input[1] || /html[1]/body[1]/app-root[1]/div[1]/app-route-planner[1]/div[1]/div[1]/aa-route-input[1]/div[1]/app-google-place-search[2]/div[1]/div[1]/div[2]/input[1]",
+    "click ## @ /html[1]/body[1]/app-root[1]/div[1]/app-route-planner[1]/div[1]/div[1]/aa-route-plan-button[1]/button[1] || /html[1]/body[1]/app-root[1]/div[1]/app-route-planner[1]/div[1]/div[1]/aa-route-plan-button[1]/button[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://www.theaa.com/route-planner/route?from=14865%20NE%2036th%20St,%20Redmond,%20WA%2098052,%20USA&to=Bellevue%20Square,%20Bellevue,%20WA%2098004,%20USA",
+  "target_url_res": [
+    "route?",
+    "Redmond,%20WA",
+    "to=Bellevue%20Square"
+  ],
+  "replayable": true
+}

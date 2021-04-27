@@ -1,0 +1,8 @@
+{
+  "feature_cache_size": 5000,
+  "n_backup_episodes": 50,
+  "n_train_episodes": 200,
+  "n_test_episodes": 100,
+  "train_tasks": [".*"],
+  "test_tasks": ["flight_"]
+}

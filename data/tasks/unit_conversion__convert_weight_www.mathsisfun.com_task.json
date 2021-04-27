@@ -1,0 +1,31 @@
+{
+  "start_url": "https://www.mathsisfun.com/unit-conversion-tool.php",
+  "query_words": [
+    "convert",
+    "weight",
+    "from",
+    "7333",
+    "pound",
+    "to",
+    "ounce"
+  ],
+  "query_annotations": [
+    "",
+    "unit type",
+    "",
+    "number",
+    "unit",
+    "",
+    "unit"
+  ],
+  "demonstration": [
+    "select #10# @ id(\"props\") || /html[1]/body[1]/div[2]/div[1]/div[1]/select[1]",
+    "select #3# @ id(\"units-from\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/select[1]",
+    "select #2# @ id(\"units-to\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/select[1]",
+    "input_text #7333# @ id(\"value-from\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]"
+  ],
+  "target_text_res": [
+    "7333 lb = 117328 oz"
+  ],
+  "replayable": true
+}

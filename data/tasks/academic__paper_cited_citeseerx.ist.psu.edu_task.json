@@ -1,0 +1,26 @@
+{
+  "start_url": "http://citeseerx.ist.psu.edu/index",
+  "query_words": [
+    "find",
+    "citations",
+    "of",
+    "ImageNet: A Large-Scale Hierarchical Image Database"
+  ],
+  "query_annotations": [
+    "",
+    "link",
+    "",
+    "title"
+  ],
+  "demonstration": [
+    "input_text #ImageNet: A Large-Scale Hierarchical Image Database# @ id(\"search_docs\")/form[1]/div[1]/input[1] || /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"search_docs\")/form[1]/div[1]/input[1] || /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/input[1]",
+    "click ## @ id(\"result_list\")/div[1]/div[3]/a[2] || /html[1]/body[1]/div[1]/div[3]/div[2]/div[3]/div[1]/div[3]/a[2]"
+  ],
+  "target_text_res": [],
+  "target_url_res": [
+    "showciting?cid=9906740"
+  ],
+  "target_url": "http://citeseerx.ist.psu.edu/showciting?cid=9906740",
+  "replayable": true
+}

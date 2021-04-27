@@ -1,0 +1,26 @@
+{
+  "start_url": "http://citeseerx.ist.psu.edu/index",
+  "query_words": [
+    "find",
+    "articles",
+    "on",
+    "neural networks"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "topic"
+  ],
+  "demonstration": [
+    "input_text #neural networks# @ id(\"search_docs\")/form[1]/div[1]/input[1] || /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"search_docs\")/form[1]/div[1]/input[1] || /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "http://citeseerx.ist.psu.edu/search;jsessionid=BDE25327925E7131CC00BA6D18DE8699?q=neural+networks&submit.x=0&submit.y=0&sort=rlv&t=doc",
+  "target_url_res": [
+    "q=neural+networks",
+    "search"
+  ],
+  "replayable": true
+}

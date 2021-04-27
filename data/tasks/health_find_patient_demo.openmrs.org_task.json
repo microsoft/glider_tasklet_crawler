@@ -1,0 +1,28 @@
+{
+  "start_url": "https://demo.openmrs.org",
+  "query_words": [
+    "find",
+    "patient",
+    "record",
+    "of",
+    "Lisa Smith"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "name"
+  ],
+  "target_text_res": [],
+  "target_url_res": [
+    "patient.page?",
+    "patientId=0101a93e"
+  ],
+  "necessary_actions": [],
+  "demonstration": [
+    "click ## @ id(\"coreapps-activeVisitsHomepageLink-coreapps-activeVisitsHomepageLink-extension\") || /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/a[1]",
+    "input_text #Lisa Smith# @ id(\"patient-search\") || /html[1]/body[1]/div[1]/div[3]/form[1]/input[1]",
+    "press_enter ## @ id(\"patient-search\") || /html[1]/body[1]/div[1]/div[3]/form[1]/input[1]"
+  ]
+}

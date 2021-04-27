@@ -1,0 +1,31 @@
+{
+  "start_url": "https://academic.microsoft.com/",
+  "query_words": [
+    "find",
+    "journal",
+    "articles",
+    "on",
+    "neural networks"
+  ],
+  "query_annotations": [
+    "",
+    "article type",
+    "",
+    "",
+    "topic"
+  ],
+  "demonstration": [
+    "input_text #neural networks# @ /html[1]/body[1]/div[2]/div[1]/div[1]/router-view[1]/ma-hp[1]/div[1]/div[1]/div[1]/compose[1]/div[2]/div[1]/ma-suggestion-control[1]/div[1]/div[1]/input[1] || /html[1]/body[1]/div[2]/div[1]/div[1]/router-view[1]/ma-hp[1]/div[1]/div[1]/div[1]/compose[1]/div[2]/div[1]/ma-suggestion-control[1]/div[1]/div[1]/input[1]",
+    "press_enter ## @ /html[1]/body[1]/div[2]/div[1]/div[1]/router-view[1]/ma-hp[1]/div[1]/div[1]/div[1]/compose[1]/div[2]/div[1]/ma-suggestion-control[1]/div[1]/div[1]/input[1] || /html[1]/body[1]/div[2]/div[1]/div[1]/router-view[1]/ma-hp[1]/div[1]/div[1]/div[1]/compose[1]/div[2]/div[1]/ma-suggestion-control[1]/div[1]/div[1]/input[1]",
+    "click ## @ id(\"sortBy\")/div[1] || /html[1]/body[1]/div[2]/div[1]/div[1]/router-view[1]/ma-serp[1]/div[1]/div[2]/div[1]/compose[1]/div[1]/div[1]/ma-dropdown[1]/div[1]",
+    "click ## @ id(\"sortBy\")/div[1]/div[2]/div[3] || /html[1]/body[1]/div[2]/div[1]/div[1]/router-view[1]/ma-serp[1]/div[1]/div[2]/div[1]/compose[1]/div[1]/div[1]/ma-dropdown[1]/div[1]/div[2]/div[3]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://academic.microsoft.com/search?q=neural%20networks&f=&orderBy=3",
+  "target_url_res": [
+    "search?",
+    "q=neural%20networks",
+    "orderBy=3"
+  ],
+  "replayable": true
+}

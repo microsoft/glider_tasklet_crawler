@@ -1,0 +1,30 @@
+{
+  "start_url": "https://ieeexplore.ieee.org",
+  "query_words": [
+    "find",
+    "conference",
+    "articles",
+    "on",
+    "neural networks"
+  ],
+  "query_annotations": [
+    "",
+    "article type",
+    "",
+    "",
+    "topic"
+  ],
+  "demonstration": [
+    "select #2# @ id(\"LayoutWrapper\")/div[1]/div[1]/div[1]/div[4]/div[2]/select[1] || /html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[4]/div[2]/select[1]",
+    "input_text #neural networks# @ id(\"conf_title\") || /html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[4]/div[2]/form[1]/div[2]/div[1]/fieldset[4]/div[1]/input[1]",
+    "press_enter ## @ id(\"conf_title\") || /html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[4]/div[2]/form[1]/div[2]/div[1]/fieldset[4]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url_res": [
+    "queryText=neural%20networks",
+    "searchresult.jsp",
+    "contentType=conferences"
+  ],
+  "target_url": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&contentType=conferences&queryText=neural%20networks",
+  "replayable": true
+}

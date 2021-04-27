@@ -1,0 +1,30 @@
+{
+  "start_url": "https://ccs.polarislibrary.com/polaris/search/",
+  "query_words": [
+    "find",
+    "books",
+    "by",
+    "author",
+    "Umberto Eco"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "name"
+  ],
+  "demonstration": [
+    "click ## @ id(\"searchOptions\") || /html[1]/body[1]/div[2]/div[1]/div[1]/main[1]/div[1]/article[1]/section[1]/form[1]/asp:table[1]/asp:tablerow[1]/asp:tablecell[1]/div[1]/div[1]/a[1]",
+    "select #2# @ id(\"dropdownSearchBy\") || /html[1]/body[1]/div[2]/div[1]/div[1]/main[1]/div[1]/article[1]/section[1]/form[1]/asp:table[1]/asp:tablerow[1]/asp:tablecell[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/select[1]",
+    "input_text #Umberto Eco# @ id(\"textboxTerm\") || /html[1]/body[1]/div[2]/div[1]/div[1]/main[1]/div[1]/article[1]/section[1]/form[1]/asp:table[1]/asp:tablerow[1]/asp:tablecell[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]",
+    "press_enter ## @ id(\"textboxTerm\") || /html[1]/body[1]/div[2]/div[1]/div[1]/main[1]/div[1]/article[1]/section[1]/form[1]/asp:table[1]/asp:tablerow[1]/asp:tablecell[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://ccs.polarislibrary.com/polaris/search/searchresults.aspx?ctx=3.1033.0.0.7&type=Keyword&term=Umberto%20Eco&by=AU&sort=RELEVANCE&limit=TOM=*&query=&page=0&searchid=1",
+  "target_url_res": [
+    "term=Umberto%20Eco",
+    "by=AU"
+  ],
+  "replayable": true
+}

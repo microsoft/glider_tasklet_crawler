@@ -1,0 +1,21 @@
+{
+  "start_url": "http://dictionary.cambridge.org/",
+  "query_words": [
+    "search",
+    "intelligent"
+  ],
+  "query_annotations": [
+    "",
+    "term"
+  ],
+  "demonstration": [
+    "input_text #intelligent# @ id(\"cdo-search-input\") || /html[1]/body[1]/div[6]/div[1]/div[1]/form[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"cdo-search-input\") || /html[1]/body[1]/div[6]/div[1]/div[1]/form[1]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://dictionary.cambridge.org/dictionary/english/intelligent",
+  "target_url_res": [
+    "english/intelligent"
+  ],
+  "replayable": true
+}

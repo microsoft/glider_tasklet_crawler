@@ -1,0 +1,31 @@
+{
+  "start_url": "https://www.amazon.com/",
+  "query_words": [
+    "find",
+    "shoes",
+    "and",
+    "sort by",
+    "price"
+  ],
+  "query_annotations": [
+    "",
+    "product",
+    "",
+    "",
+    "key"
+  ],
+  "demonstration": [
+    "input_text #shoes# @ id(\"twotabsearchtextbox\") || /html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[3]/div[1]/form[1]/div[3]/div[1]/input[1]",
+    "click ## @ id(\"nav-search\")/form[1]/div[2]/div[1]/input[1] || /html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[3]/div[1]/form[1]/div[2]/div[1]/input[1]",
+    "select #1# @ id(\"s-result-sort-select\") || /html[1]/body[1]/div[1]/div[2]/span[1]/h1[1]/div[1]/div[2]/div[1]/div[1]/span[1]/form[1]/span[1]/select[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://www.amazon.com/s?k=shoes&s=price-asc-rank&qid=1564028017&ref=sr_st_price-asc-rank",
+  "target_url_res": [
+    "k=shoes"
+  ],
+  "necessary_actions": [
+    "select #1# @ id(\"s-result-sort-select\")"
+  ],
+  "replayable": true
+}

@@ -1,0 +1,34 @@
+{
+  "start_url": "http://www.unitconversion.org/",
+  "query_words": [
+    "convert",
+    "weight",
+    "from",
+    "7333",
+    "pound",
+    "to",
+    "ounce"
+  ],
+  "query_annotations": [
+    "",
+    "unit type",
+    "",
+    "number",
+    "unit",
+    "",
+    "unit"
+  ],
+  "demonstration": [
+    "click ## @ /html[1]/body[1]/center[1]/table[2]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[3]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/ul[1]/li[2]/a[1] || /html[1]/body[1]/center[1]/table[2]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[3]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/ul[1]/li[2]/a[1]",
+    "select #23# @ /html[1]/body[1]/center[1]/form[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[1]/select[1] || /html[1]/body[1]/center[1]/form[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[1]/select[1]",
+    "select #25# @ /html[1]/body[1]/center[1]/form[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[2]/select[1] || /html[1]/body[1]/center[1]/form[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[2]/select[1]",
+    "input_text #7333# @ /html[1]/body[1]/center[1]/form[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1] || /html[1]/body[1]/center[1]/form[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]"
+  ],
+  "target_text_res": [
+    "117328"
+  ],
+  "target_url_res": [
+    "weight.html"
+  ],
+  "replayable": true
+}

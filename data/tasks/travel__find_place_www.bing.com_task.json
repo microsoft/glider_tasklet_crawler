@@ -1,0 +1,24 @@
+{
+  "start_url": "https://www.bing.com/maps/",
+  "query_words": [
+    "Where",
+    "is",
+    "Microsoft Building 99"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "place"
+  ],
+  "demonstration": [
+    "input_text #Microsoft Building 99# @ id(\"maps_sb\") || /html[1]/body[1]/div[2]/div[1]/div[1]/ul[1]/li[2]/div[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"maps_sb\") || /html[1]/body[1]/div[2]/div[1]/div[1]/ul[1]/li[2]/div[1]/div[1]/input[1]"
+  ],
+  "target_text_res": [
+    "WA 98052",
+    "Parking"
+  ],
+  "target_url": "https://www.bing.com/maps/",
+  "target_url_res": [],
+  "replayable": true
+}

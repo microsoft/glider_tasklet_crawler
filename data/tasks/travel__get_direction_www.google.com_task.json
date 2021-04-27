@@ -1,0 +1,34 @@
+{
+  "start_url": "https://www.google.com/maps/",
+  "query_words": [
+    "Get",
+    "directions",
+    "from",
+    "Microsoft Building 99",
+    "to",
+    "Bellevue Square"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "starting point",
+    "",
+    "destination"
+  ],
+  "demonstration": [
+    "click ## @ id(\"searchbox-directions\") || /html[1]/body[1]/jsl[1]/div[3]/div[7]/div[3]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]",
+    "input_text #Microsoft Building 99# @ id(\"sb_ifc51\")/input[1] || /html[1]/body[1]/jsl[1]/div[3]/div[7]/div[3]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"sb_ifc51\")/input[1] || /html[1]/body[1]/jsl[1]/div[3]/div[7]/div[3]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/input[1]",
+    "input_text #Bellevue Square# @ id(\"sb_ifc52\")/input[1] || /html[1]/body[1]/jsl[1]/div[3]/div[7]/div[3]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"sb_ifc52\")/input[1] || /html[1]/body[1]/jsl[1]/div[3]/div[7]/div[3]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/input[1]"
+  ],
+  "target_text_res": [
+  ],
+  "target_url": "https://www.google.com/maps/dir/Microsoft+Building+99+Parking+Garage,+14865+NE+36th+St,+Redmond,+WA+98052/Bellevue+Square,+575+Bellevue+Square,+Bellevue,+WA+98004/@47.6286471,-122.2072375,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54906d12af5ec5e5:0x25bd1ad2a6675742!2m2!1d-122.1407465!2d47.6418392!1m5!1m1!1s0x54906c86779db517:0xda7188c739364d86!2m2!1d-122.2038024!2d47.615551!3e2",
+  "target_url_res": [
+    "maps/dir/Microsoft+Building+99",
+    "Bellevue+Square"
+  ],
+  "replayable": true
+}

@@ -1,0 +1,55 @@
+{
+  "start_url": "https://www.cheapflights.com/",
+  "query_words": [
+    "find",
+    "one-way",
+    "flight",
+    "from",
+    "BOS",
+    "to",
+    "SFO",
+    "departing",
+    "08/27/2019",
+    "for",
+    "2",
+    "adults"
+  ],
+  "query_annotations": [
+    "",
+    "flight type",
+    "",
+    "",
+    "departure airport",
+    "",
+    "arrival airport",
+    "",
+    "date",
+    "",
+    "number",
+    ""
+  ],
+  "demonstration": [
+    "input_text #BOS# @ id(\"NCaY-origin\") || /html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]",
+    "input_text #SFO# @ id(\"NCaY-destination\") || /html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[3]/div[1]/input[1]",
+    "click ## @ id(\"ElFs-RTOWsearchform\")/div[1]/div[1]/div[1]/div[5]/div[1]/span[1]/span[1]/label[2] || /html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[5]/div[1]/span[1]/span[1]/label[2]",
+    "input_text #08/27/2019# @ id(\"NCaY-depart-input\") || /html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "press_enter ## @ id(\"NCaY-depart-input\") || /html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "click ## @ id(\"NCaY-travelers\") || /html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[8]/div[1]/a[1]",
+    "click ## @ id(\"c2L2U\") || /html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[3]/button[1]",
+    "click ## @ id(\"NCaY-travelers\") || /html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[8]/div[1]/a[1]",
+    "click ## @ id(\"NCaY-submit\") || /html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[3]/div[1]/button[1]"
+  ],
+  "target_text_res": [
+    "2 travelers",
+    "7/27"
+  ],
+  "necessary_actions": [
+    "input_text #BOS# @ id(\"NCaY-origin\") || /html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]",
+    "input_text #SFO# @ id(\"NCaY-destination\") || /html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[3]/div[1]/input[1]",
+    "input_text #08/27/2019# @ id(\"NCaY-depart-input\") || /html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]"
+  ],
+  "target_url": "https://www.cheapflights.com/book-flights-online/",
+  "target_url_res": [
+    "book-flights-online"
+  ]
+}

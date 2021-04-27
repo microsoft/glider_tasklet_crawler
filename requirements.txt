@@ -1,0 +1,8 @@
+keras==2.2.5
+tensorflow=1.14.0
+selenium
+matplotlib
+networkx
+Pillow
+numpy
+spacy

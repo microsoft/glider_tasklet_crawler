@@ -1,0 +1,26 @@
+{
+  "start_url": "https://searchit.libraries.wsu.edu/",
+  "query_words": [
+    "find",
+    "articles",
+    "on",
+    "neural networks"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "topic"
+  ],
+  "demonstration": [
+    "input_text #neural networks# @ id(\"searchBar\") || /html[1]/body[1]/primo-explore[1]/div[1]/prm-explore-main[1]/div[1]/prm-search-bar[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/div[1]/div[1]/prm-autocomplete[1]/md-autocomplete-wrap[1]/input[1]",
+    "press_enter ## @ id(\"searchBar\") || /html[1]/body[1]/primo-explore[1]/div[1]/prm-explore-main[1]/div[1]/prm-search-bar[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/div[1]/div[1]/prm-autocomplete[1]/md-autocomplete-wrap[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url_res": [
+    "search?",
+    "contains,neural"
+  ],
+  "target_url": "https://searchit.libraries.wsu.edu/primo-explore/search?query=any,contains,neural%20networks&tab=default_tab&search_scope=WSU_everything&vid=WSU&offset=0",
+  "replayable": true
+}

@@ -1,0 +1,24 @@
+{
+  "start_url": "https://www.google.com/maps/",
+  "query_words": [
+    "Where",
+    "is",
+    "Microsoft Building 99"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "place"
+  ],
+  "demonstration": [
+    "input_text #Microsoft Building 99# @ id(\"searchboxinput\") || /html[1]/body[1]/jsl[1]/div[3]/div[7]/div[3]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[3]/div[1]/input[1]",
+    "press_enter ## @ id(\"searchboxinput\") || /html[1]/body[1]/jsl[1]/div[3]/div[7]/div[3]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[3]/div[1]/input[1]"
+  ],
+  "target_text_res": [
+  ],
+  "target_url": "https://www.google.com/maps/place/Microsoft+Building+99+Parking+Garage/@47.6418392,-122.1429352,17z/data=!3m1!4b1!4m5!3m4!1s0x54906d12af5ec5e5:0x25bd1ad2a6675742!8m2!3d47.6418392!4d-122.1407465",
+  "target_url_res": [
+    "maps/place/Microsoft+Building+99"
+  ],
+  "replayable": true
+}

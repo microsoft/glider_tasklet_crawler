@@ -1,0 +1,31 @@
+{
+  "start_url": "https://www.uber.com/fare-estimate/",
+  "query_words": [
+    "Estimate",
+    "ride fare",
+    "from",
+    "Microsoft Building 99",
+    "to",
+    "Bellevue Square"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "starting point",
+    "",
+    "destination"
+  ],
+  "demonstration": [
+    "input_text #Microsoft Building 99# @ id(\"main\")/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1] || /html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"main\")/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1] || /html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]",
+    "input_text #Bellevue Square# @ id(\"main\")/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1] || /html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]",
+    "press_enter ## @ id(\"main\")/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1] || /html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "necessary_actions": [
+    "input_text #Microsoft Building 99# @ id(\"main\")/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]",
+    "input_text #Bellevue Square# @ id(\"main\")/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"
+  ],
+  "replayable": true
+}

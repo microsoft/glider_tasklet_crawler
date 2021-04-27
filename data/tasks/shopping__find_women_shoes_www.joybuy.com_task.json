@@ -1,0 +1,27 @@
+{
+  "start_url": "https://www.joybuy.com/",
+  "query_words": [
+    "find",
+    "shoes",
+    "for",
+    "women"
+  ],
+  "query_annotations": [
+    "",
+    "product",
+    "",
+    "type"
+  ],
+  "demonstration": [
+    "input_text #shoes# @ id(\"searchKeyWord\") || /html[1]/body[1]/header[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/input[1]",
+    "click ## @ id(\"doSearch\") || /html[1]/body[1]/header[1]/div[1]/div[1]/div[2]/div[1]/button[1]",
+    "click ## @ /html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/dl[1]/dd[3]/div[1]/a[1] || /html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/dl[1]/dd[3]/div[1]/a[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://www.joybuy.com/search?bucket=-2&keywords=%73%68%6F%65%73&arriveCountry=2456&categoryLevel=2&qpExclude=0&category=875061444&filterTypes=%65%78%70%61%6E%64%2C%72%65%64%69%73%73%74%6F%72%65",
+  "target_url_res": [
+    "category=875061444",
+    "keywords=%73%68%6F%65%73"
+  ],
+  "replayable": true
+}

@@ -1,0 +1,28 @@
+{
+  "start_url": "https://academic.microsoft.com/",
+  "query_words": [
+    "find",
+    "citations",
+    "of",
+    "ImageNet: A Large-Scale Hierarchical Image Database"
+  ],
+  "query_annotations": [
+    "",
+    "link",
+    "",
+    "title"
+  ],
+  "demonstration": [
+    "input_text #ImageNet: A Large-Scale Hierarchical Image Database# @ /html[1]/body[1]/div[2]/div[1]/div[1]/router-view[1]/ma-hp[1]/div[1]/div[1]/div[1]/compose[1]/div[2]/div[1]/ma-suggestion-control[1]/div[1]/div[1]/input[1] || /html[1]/body[1]/div[2]/div[1]/div[1]/router-view[1]/ma-hp[1]/div[1]/div[1]/div[1]/compose[1]/div[2]/div[1]/ma-suggestion-control[1]/div[1]/div[1]/input[1]",
+    "press_enter ## @ /html[1]/body[1]/div[2]/div[1]/div[1]/router-view[1]/ma-hp[1]/div[1]/div[1]/div[1]/compose[1]/div[2]/div[1]/ma-suggestion-control[1]/div[1]/div[1]/input[1] || /html[1]/body[1]/div[2]/div[1]/div[1]/router-view[1]/ma-hp[1]/div[1]/div[1]/div[1]/compose[1]/div[2]/div[1]/ma-suggestion-control[1]/div[1]/div[1]/input[1]",
+    "click ## @ /html[1]/body[1]/div[2]/div[1]/div[1]/router-view[1]/ma-serp[1]/div[1]/div[2]/div[1]/compose[1]/div[1]/div[2]/ma-card[1]/div[1]/compose[1]/div[1]/div[2]/span[1]/ma-call-to-action[2]/a[1] || /html[1]/body[1]/div[2]/div[1]/div[1]/router-view[1]/ma-serp[1]/div[1]/div[2]/div[1]/compose[1]/div[1]/div[2]/ma-card[1]/div[1]/compose[1]/div[1]/div[2]/span[1]/ma-call-to-action[2]/a[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://academic.microsoft.com/search?q=ImageNet%3A%20A%20Large-Scale%20Hierarchical%20Image%20Database&f=&orderBy=0&skip=0&take=10",
+  "target_url_res": [
+    "paper/2108598243",
+    "q=ImageNet",
+    "citedby"
+  ],
+  "replayable": true
+}

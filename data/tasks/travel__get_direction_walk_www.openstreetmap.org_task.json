@@ -1,0 +1,39 @@
+{
+  "start_url": "https://www.openstreetmap.org/",
+  "query_words": [
+    "Get",
+    "walking",
+    "directions",
+    "from",
+    "Microsoft Building 99",
+    "to",
+    "Bellevue Square"
+  ],
+  "query_annotations": [
+    "",
+    "mode",
+    "",
+    "",
+    "starting point",
+    "",
+    "destination"
+  ],
+  "demonstration": [
+    "click ## @ id(\"sidebar\")/div[1]/form[1]/a[1] || /html[1]/body[1]/div[1]/div[1]/div[1]/form[1]/a[1]",
+    "select #5# @ id(\"sidebar\")/div[1]/form[2]/div[4]/select[1] || /html[1]/body[1]/div[1]/div[1]/div[1]/form[2]/div[4]/select[1]",
+    "input_text #Microsoft Building 99# @ id(\"sidebar\")/div[1]/form[2]/div[2]/span[1]/input[1] || /html[1]/body[1]/div[1]/div[1]/div[1]/form[2]/div[2]/span[1]/input[1]",
+    "press_enter ## @ id(\"sidebar\")/div[1]/form[2]/div[2]/span[1]/input[1] || /html[1]/body[1]/div[1]/div[1]/div[1]/form[2]/div[2]/span[1]/input[1]",
+    "input_text #Bellevue Square# @ id(\"sidebar\")/div[1]/form[2]/div[3]/span[1]/input[1] || /html[1]/body[1]/div[1]/div[1]/div[1]/form[2]/div[3]/span[1]/input[1]",
+    "press_enter ## @ id(\"sidebar\")/div[1]/form[2]/div[3]/span[1]/input[1] || /html[1]/body[1]/div[1]/div[1]/div[1]/form[2]/div[3]/span[1]/input[1]",
+    "click ## @ id(\"sidebar\")/div[1]/form[2]/div[4]/input[1] || /html[1]/body[1]/div[1]/div[1]/div[1]/form[2]/div[4]/input[1]"
+  ],
+  "target_text_res": [
+  ],
+  "target_url": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=47.64%2C-122.14%3B43.65%2C-79.40",
+  "target_url_res": [
+    "directions?",
+    "route=47.64",
+    "foot"
+  ],
+  "replayable": true
+}

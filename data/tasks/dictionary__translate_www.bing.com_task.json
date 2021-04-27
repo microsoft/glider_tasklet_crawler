@@ -1,0 +1,33 @@
+{
+  "start_url": "https://www.bing.com/translator/",
+  "query_words": [
+    "translate",
+    "intelligent",
+    "from",
+    "English",
+    "to",
+    "Spanish"
+  ],
+  "query_annotations": [
+    "",
+    "term",
+    "",
+    "language",
+    "",
+    "language"
+  ],
+  "demonstration": [
+    "select #14# @ id(\"tta_srcsl\") || /html[1]/body[1]/div[5]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/select[1]",
+    "select #50# @ id(\"tta_tgtsl\") || /html[1]/body[1]/div[5]/div[1]/table[1]/tbody[1]/tr[1]/td[3]/div[1]/div[1]/select[1]",
+    "input_text #intelligent# @ id(\"tta_input\") || /html[1]/body[1]/div[5]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[3]/div[1]/textarea[1]",
+    "press_enter ## @ id(\"tta_input\") || /html[1]/body[1]/div[5]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[3]/div[1]/textarea[1]"
+  ],
+  "target_text_res": [
+    "inteligente",
+    "Spanish"
+  ],
+  "target_url_res": [],
+  "target_url": "https://www.bing.com/translator/",
+  "necessary_actions": [],
+  "replayable": true
+}

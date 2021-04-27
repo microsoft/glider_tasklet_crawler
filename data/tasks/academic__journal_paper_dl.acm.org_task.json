@@ -1,0 +1,29 @@
+{
+  "start_url": "https://dl.acm.org/",
+  "query_words": [
+    "find",
+    "journal",
+    "articles",
+    "on",
+    "neural networks"
+  ],
+  "query_annotations": [
+    "",
+    "article type",
+    "",
+    "",
+    "topic"
+  ],
+  "demonstration": [
+    "click ## @ /html[1]/body[1]/div[2]/div[2]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[6]/table[1]/tbody[1]/tr[2]/td[1]/ul[1]/li[2]/a[1] || /html[1]/body[1]/div[2]/div[2]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[6]/table[1]/tbody[1]/tr[2]/td[1]/ul[1]/li[2]/a[1]",
+    "input_text #neural networks# @ /html[1]/body[1]/div[2]/div[4]/form[1]/label[1]/input[1] || /html[1]/body[1]/div[2]/div[4]/form[1]/label[1]/input[1]",
+    "press_enter ## @ /html[1]/body[1]/div[2]/div[4]/form[1]/label[1]/input[1] || /html[1]/body[1]/div[2]/div[4]/form[1]/label[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://dl.acm.org/results.cfm?within=acmPubGroups.acmPubGroup%3DJournal&withindisp=ACM+Journals&query=neural+networks&Go.x=0&Go.y=0",
+  "target_url_res": [
+    "Journal",
+    "query=neural+networks"
+  ],
+  "replayable": true
+}

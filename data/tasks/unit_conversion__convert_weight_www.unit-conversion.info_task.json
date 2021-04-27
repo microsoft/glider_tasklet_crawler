@@ -1,0 +1,34 @@
+{
+  "start_url": "http://www.unit-conversion.info/category/Measurement_conversion_J-Z#data",
+  "query_words": [
+    "convert",
+    "weight",
+    "from",
+    "7333",
+    "pound",
+    "to",
+    "ounce"
+  ],
+  "query_annotations": [
+    "",
+    "unit type",
+    "",
+    "number",
+    "unit",
+    "",
+    "unit"
+  ],
+  "demonstration": [
+    "click ## @ id(\"sidebar\")/div[21]/a[1] || /html[1]/body[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[21]/a[1]",
+    "select #15# @ id(\"field_D1\") || /html[1]/body[1]/div[2]/section[1]/div[1]/div[1]/div[3]/div[1]/form[1]/table[1]/tbody[1]/tr[4]/td[1]/select[1]",
+    "select #13# @ id(\"field_D2\") || /html[1]/body[1]/div[2]/section[1]/div[1]/div[1]/div[3]/div[1]/form[1]/table[1]/tbody[1]/tr[4]/td[3]/select[1]",
+    "input_text #7333# @ id(\"T1\") || /html[1]/body[1]/div[2]/section[1]/div[1]/div[1]/div[3]/div[1]/form[1]/table[1]/tbody[1]/tr[2]/td[1]/input[1]"
+  ],
+  "target_text_res": [
+    "117328"
+  ],
+  "target_url_res": [
+    "weight.html"
+  ],
+  "replayable": true
+}

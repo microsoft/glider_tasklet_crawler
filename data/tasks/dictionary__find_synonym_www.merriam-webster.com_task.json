@@ -1,0 +1,25 @@
+{
+  "start_url": "https://www.merriam-webster.com/",
+  "query_words": [
+    "find",
+    "synonyms",
+    "of",
+    "intelligent"
+  ],
+  "query_annotations": [
+    "",
+    "type",
+    "",
+    "term"
+  ],
+  "demonstration": [
+    "input_text #intelligent# @ id(\"s-term\") || /html[1]/body[1]/div[1]/div[1]/header[1]/div[1]/div[4]/form[1]/div[1]/input[1]",
+    "click ## @ id(\"mw-search-tabs\")/span[2] || /html[1]/body[1]/div[1]/div[1]/header[1]/div[1]/div[4]/form[1]/div[2]/span[2]",
+    "press_enter ## @ id(\"s-term\") || /html[1]/body[1]/div[1]/div[1]/header[1]/div[1]/div[4]/form[1]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url_res": [
+    "thesaurus/intelligent"
+  ],
+  "target_url": "https://www.merriam-webster.com/thesaurus/intelligent"
+}

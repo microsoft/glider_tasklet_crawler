@@ -1,0 +1,26 @@
+{
+  "start_url": "https://ieeexplore.ieee.org",
+  "query_words": [
+    "find",
+    "articles",
+    "on",
+    "neural networks"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "topic"
+  ],
+  "demonstration": [
+    "input_text #neural networks# @ id(\"input-basic\") || /html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[4]/div[2]/form[1]/div[2]/div[1]/fieldset[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"input-basic\") || /html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[4]/div[2]/form[1]/div[2]/div[1]/fieldset[1]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=neural%20networks",
+  "target_url_res": [
+    "queryText=neural%20networks",
+    "search"
+  ],
+  "replayable": true
+}

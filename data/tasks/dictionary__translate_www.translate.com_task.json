@@ -1,0 +1,34 @@
+{
+  "start_url": "https://www.translate.com/",
+  "query_words": [
+    "translate",
+    "intelligent",
+    "from",
+    "English",
+    "to",
+    "Spanish"
+  ],
+  "query_annotations": [
+    "",
+    "term",
+    "",
+    "language",
+    "",
+    "language"
+  ],
+  "demonstration": [
+    "click ## @ id(\"translation_language_dropdown\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/button[4]",
+    "click ## @ id(\"translation_es\") || /html[1]/body[1]/section[2]/div[7]/a[5]",
+    "input_text #intelligent# @ id(\"source_text\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/textarea[1]",
+    "press_enter ## @ id(\"source_text\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/textarea[1]"
+  ],
+  "target_text_res": [
+    "inteligente",
+    "Spanish"
+  ],
+  "target_url_res": [],
+  "target_url": "https://www.translate.com/",
+  "necessary_actions": [
+    "input_text #intelligent# @ id(\"source_text\")"
+  ]
+}

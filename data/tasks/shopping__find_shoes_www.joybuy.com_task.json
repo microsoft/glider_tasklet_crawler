@@ -1,0 +1,21 @@
+{
+  "start_url": "https://www.joybuy.com/",
+  "query_words": [
+    "find",
+    "shoes"
+  ],
+  "query_annotations": [
+    "",
+    "product"
+  ],
+  "demonstration": [
+    "input_text #shoes# @ id(\"searchKeyWord\") || /html[1]/body[1]/header[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/input[1]",
+    "click ## @ id(\"doSearch\") || /html[1]/body[1]/header[1]/div[1]/div[1]/div[2]/div[1]/button[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://www.joybuy.com/search?keywords=shoes&arriveCountry=2456&filterTypes=expand&bucket=-2",
+  "target_url_res": [
+    "search?keywords=shoes"
+  ],
+  "replayable": true
+}

@@ -1,0 +1,29 @@
+{
+  "start_url": "http://osceola.librarycatalog.info/polaris/search/",
+  "query_words": [
+    "find",
+    "books",
+    "by",
+    "author",
+    "Umberto Eco"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "name"
+  ],
+  "demonstration": [
+    "input_text #Umberto Eco# @ id(\"Term\") || /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/input[2]",
+    "click ## @ id(\"searchsubmit\") || /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/form[1]/input[1]",
+    "select #2# @ id(\"ctrlSearchBars_searchbarKeyword_dropdownSearchBy\") || /html[1]/body[1]/form[1]/div[2]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/select[1]",
+    "click ## @ id(\"ctrlSearchBars_searchbarKeyword_buttonDoSearch\") || /html[1]/body[1]/form[1]/div[2]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[2]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "http://osceola.librarycatalog.info/polaris/search/searchresults.aspx?ctx=1.1033.0.0.2&type=Keyword&term=Umberto%20Eco&by=AU&sort=RELEVANCE&limit=TOM=*&query=&page=0&searchid=1",
+  "target_url_res": [
+    "term=Umberto%20Eco",
+    "by=AU"
+  ]
+}

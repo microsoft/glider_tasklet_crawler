@@ -1,0 +1,33 @@
+{
+  "start_url": "https://www.primelocation.com/to-rent/",
+  "query_words": [
+    "find",
+    "a",
+    "rent",
+    "in",
+    "Seattle"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "city"
+  ],
+  "demonstration": [
+    "finish ## @ id(\"search-input-location-wrapper\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[2]/div[1]/div[1]",
+    "finish ## @ id(\"search-input-location-wrapper\")/span[1]/span[1] || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[2]/div[1]/div[1]/span[1]/span[1]",
+    "input_text #Seattle# @ id(\"search-input-location\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[2]/div[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"search-input-location\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[2]/div[1]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://www.primelocation.com/search/?q=Seattle&geo_autocomplete_identifier=&price_min=&price_max=&property_type=&beds_min=&category=residential&price_frequency=per_month&furnished_state=&radius=&added=&results_sort=highest_price&keywords=&new_homes=&retirement_homes=true&shared_ownership=&include_auctions=true&include_sold=&include_shared_accommodation=true&include_rented=&search_source=to-rent&section=to-rent&view_type=grid",
+  "target_url_res": [
+    "q=Seattle",
+    "price_min=&",
+    "price_max=&",
+    "property_type=&",
+    "beds_min=&"
+  ],
+  "replayable": true
+}

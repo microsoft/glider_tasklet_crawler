@@ -1,0 +1,26 @@
+{
+  "start_url": "https://www.doorsteps.com/",
+  "query_words": [
+    "find",
+    "a",
+    "rent",
+    "in",
+    "Seattle"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "city"
+  ],
+  "demonstration": [
+    "input_text #Seattle# @ id(\"home\") || /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/form[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"home\") || /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/form[1]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://www.doorsteps.com/search/seattle_wa",
+  "target_url_res": [
+    "search/seattle_wa"
+  ]
+}

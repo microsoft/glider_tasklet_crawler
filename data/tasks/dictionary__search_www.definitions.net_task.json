@@ -1,0 +1,21 @@
+{
+  "start_url": "https://www.definitions.net/",
+  "query_words": [
+    "search",
+    "intelligent"
+  ],
+  "query_annotations": [
+    "",
+    "term"
+  ],
+  "demonstration": [
+    "input_text #intelligent# @ id(\"content-top\")/div[1]/form[1]/div[1]/div[1]/input[1] || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"content-top\")/div[1]/form[1]/div[1]/div[1]/input[1] || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url_res": [
+    "definition/intelligent"
+  ],
+  "target_url": "https://www.definitions.net/definition/intelligent",
+  "replayable": true
+}

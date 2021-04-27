@@ -1,0 +1,39 @@
+{
+  "start_url": "https://catalog.swanlibraries.net/",
+  "query_words": [
+    "find",
+    "books",
+    "by",
+    "author",
+    "Umberto Eco",
+    "sort",
+    "by",
+    "publication date"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "name",
+    "",
+    "",
+    "key"
+  ],
+  "demonstration": [
+    "select #2# @ id(\"restrictionDropDown\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/form[1]/select[1]",
+    "input_text #Umberto Eco# @ id(\"q\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[2]/div[3]/input[1]",
+    "press_enter ## @ id(\"q\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[2]/div[3]/input[1]",
+    "click ## @ id(\"facetSWAN_590\")/div[1]/div[1]/input[1] || /html[1]/body[1]/div[4]/div[2]/div[1]/div[1]/div[1]/div[4]/form[1]/div[2]/div[1]/div[1]/input[1]",
+    "click ## @ id(\"facetFormSWAN_590\")/div[1]/div[2]/button[1] || /html[1]/body[1]/div[4]/div[2]/div[1]/div[1]/div[1]/div[4]/form[1]/div[1]/div[2]/button[1]",
+    "select #2# @ id(\"sortSelect\") || /html[1]/body[1]/div[4]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/form[1]/select[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://catalog.swanlibraries.net/client/en_US/default/search/results?qu=Umberto+Eco&qf=FORMAT%09Format%09BOOK%09Book&te=ILS&rt=false%7C%7C%7CAUTHOR%7C%7C%7CAuthor&st=PA",
+  "target_url_res": [
+    "qu=Umberto+Eco",
+    "Author",
+    "st=PA"
+  ],
+  "replayable": true
+}

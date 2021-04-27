@@ -1,0 +1,33 @@
+{
+  "start_url": "https://ride.guru/",
+  "query_words": [
+    "Estimate",
+    "ride fare",
+    "from",
+    "Microsoft Building 99",
+    "to",
+    "Bellevue Square"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "starting point",
+    "",
+    "destination"
+  ],
+  "demonstration": [
+    "input_text #Microsoft Building 99# @ id(\"fare-finder-form\")/rg-location-form[1]/div[1]/span[1]/input[1] || /html[1]/body[1]/div[5]/div[1]/div[3]/rg-location-form[1]/div[1]/span[1]/input[1]",
+    "press_enter ## @ id(\"fare-finder-form\")/rg-location-form[1]/div[1]/span[1]/input[1] || /html[1]/body[1]/div[5]/div[1]/div[3]/rg-location-form[1]/div[1]/span[1]/input[1]",
+    "input_text #Bellevue Square# @ id(\"fare-finder-form\")/rg-location-form[2]/div[1]/span[1]/input[1] || /html[1]/body[1]/div[5]/div[1]/div[3]/rg-location-form[2]/div[1]/span[1]/input[1]",
+    "press_enter ## @ id(\"fare-finder-form\")/rg-location-form[2]/div[1]/span[1]/input[1] || /html[1]/body[1]/div[5]/div[1]/div[3]/rg-location-form[2]/div[1]/span[1]/input[1]",
+    "click ## @ id(\"fare-finder-form\")/button[1] || /html[1]/body[1]/div[5]/div[1]/div[3]/button[1]"
+  ],
+  "target_text_res": [],
+  "necessary_actions": [
+    "input_text #Microsoft Building 99# @ id(\"fare-finder-form\")/rg-location-form[1]/div[1]/span[1]/input[1]",
+    "input_text #Bellevue Square# @ id(\"fare-finder-form\")/rg-location-form[2]/div[1]/span[1]/input[1]",
+    "click ## @ id(\"fare-finder-form\")/button[1]"
+  ],
+  "replayable": true
+}

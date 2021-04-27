@@ -1,0 +1,35 @@
+{
+  "start_url": "https://estimatefares.com/",
+  "query_words": [
+    "Estimate",
+    "ride fare",
+    "from",
+    "Microsoft Building 99",
+    "to",
+    "Bellevue Square"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "starting point",
+    "",
+    "destination"
+  ],
+  "demonstration": [
+    "input_text #Microsoft Building 99# @ id(\"pickup\")/div[1]/input[1] || /html[1]/body[1]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"pickup\")/div[1]/input[1] || /html[1]/body[1]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]",
+    "input_text #Bellevue Square# @ id(\"destination\")/div[1]/input[1] || /html[1]/body[1]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]",
+    "press_enter ## @ id(\"destination\")/div[1]/input[1] || /html[1]/body[1]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]",
+    "click ## @ id(\"dofare\") || /html[1]/body[1]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/div[3]/a[1]"
+  ],
+  "target_text_res": [],
+  "necessary_actions": [
+    "input_text #Microsoft Building 99# @ id(\"pickup\")/div[1]/input[1]",
+    "input_text #Bellevue Square# @ id(\"destination\")/div[1]/input[1]",
+    "click ## @ id(\"dofare\")"
+  ],
+  "target_url_res": [
+  ],
+  "replayable": true
+}

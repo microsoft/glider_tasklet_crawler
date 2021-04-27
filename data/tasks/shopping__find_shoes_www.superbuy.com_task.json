@@ -1,0 +1,21 @@
+{
+  "start_url": "https://www.superbuy.com/en/",
+  "query_words": [
+    "find",
+    "shoes"
+  ],
+  "query_annotations": [
+    "",
+    "product"
+  ],
+  "demonstration": [
+    "input_text #shoes# @ id(\"container\")/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[3]/div[1]/div[1]/input[1] || /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[3]/div[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"container\")/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[3]/div[1]/div[1]/input[1] || /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[3]/div[1]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://www.superbuy.com/en/page/search/?nTag=Home-search&from=search-input&keyword=shoes",
+  "target_url_res": [
+    "search",
+    "keyword=shoes"
+  ]
+}

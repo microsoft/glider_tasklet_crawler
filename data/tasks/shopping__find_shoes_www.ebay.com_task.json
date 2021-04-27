@@ -1,0 +1,21 @@
+{
+  "start_url": "https://www.ebay.com/",
+  "query_words": [
+    "find",
+    "shoes"
+  ],
+  "query_annotations": [
+    "",
+    "product"
+  ],
+  "demonstration": [
+    "input_text #shoes# @ id(\"gh-ac\") || /html[1]/body[1]/header[1]/table[1]/tbody[1]/tr[1]/td[3]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/input[1]",
+    "click ## @ id(\"gh-btn\") || /html[1]/body[1]/header[1]/table[1]/tbody[1]/tr[1]/td[3]/form[1]/table[1]/tbody[1]/tr[1]/td[3]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=shoes&_sacat=0&LH_TitleDesc=0&_osacat=0&_odkw=shoes",
+  "target_url_res": [
+    "kw=shoes"
+  ],
+  "replayable": true
+}

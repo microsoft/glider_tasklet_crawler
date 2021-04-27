@@ -1,0 +1,36 @@
+{
+  "start_url": "https://www.rent.com/",
+  "query_words": [
+    "find",
+    "a",
+    "rent",
+    "in",
+    "Seattle",
+    "with",
+    "3",
+    "bedrooms"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "city",
+    "",
+    "number",
+    ""
+  ],
+  "demonstration": [
+    "input_text #Seattle# @ id(\"searchInput\") || /html[1]/body[1]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"searchInput\") || /html[1]/body[1]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/input[1]",
+    "click ## @ id(\"app-root\")/div[2]/section[1]/div[1]/div[1]/div[1]/div[3]/div[1]/button[1] || /html[1]/body[1]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[3]/div[1]/button[1]",
+    "click ## @ id(\"app-root\")/div[2]/section[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[5] || /html[1]/body[1]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[5]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://www.rent.com/washington/seattle/apartments_condos_houses_townhouses_3-bedroom",
+  "target_url_res": [
+    "3-bedroom",
+    "washington/seattle"
+  ],
+  "replayable": true
+}

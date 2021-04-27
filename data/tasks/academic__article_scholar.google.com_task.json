@@ -1,0 +1,26 @@
+{
+  "start_url": "https://scholar.google.com/",
+  "query_words": [
+    "find",
+    "articles",
+    "on",
+    "neural networks"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "topic"
+  ],
+  "demonstration": [
+    "input_text #neural networks# @ id(\"gs_hdr_tsi\") || /html[1]/body[1]/div[1]/div[7]/div[1]/div[2]/form[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"gs_hdr_tsi\") || /html[1]/body[1]/div[1]/div[7]/div[1]/div[2]/form[1]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=neural+networks&btnG=",
+  "target_url_res": [
+    "scholar?",
+    "q=neural+networks"
+  ],
+  "replayable": true
+}

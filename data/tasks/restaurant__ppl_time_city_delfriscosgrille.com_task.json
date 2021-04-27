@@ -1,0 +1,39 @@
+{
+  "start_url": "https://delfriscosgrille.com/reservation/",
+  "query_words": [
+    "reserve",
+    "a",
+    "table",
+    "for",
+    "4",
+    "people",
+    "at",
+    "8:00 pm",
+    "in",
+    "New York"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "party size",
+    "",
+    "",
+    "time",
+    "",
+    "location"
+  ],
+  "demonstration": [
+    "select #14# @ id(\"location\") || /html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/select[1]",
+    "select #3# @ id(\"party_size\") || /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/form[1]/div[4]/select[1]",
+    "select #20# @ id(\"time\") || /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/form[1]/div[3]/select[1]",
+    "click ## @ id(\"check-availability\") || /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/form[1]/div[5]/button[1]"
+  ],
+  "target_text_res": [],
+  "necessary_actions": [
+    "select #14# @ id(\"location\")",
+    "select #3# @ id(\"party_size\")",
+    "select #20# @ id(\"time\")"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "start_url": "https://www.etsy.com/",
+  "query_words": [
+    "find",
+    "shoes"
+  ],
+  "query_annotations": [
+    "",
+    "product"
+  ],
+  "demonstration": [
+    "input_text #shoes# @ id(\"search-query\") || /html[1]/body[1]/div[3]/header[1]/div[1]/div[2]/div[1]/form[1]/div[1]/div[1]/input[1]",
+    "click ## @ id(\"gnav-search\")/div[1]/div[2]/button[1] || /html[1]/body[1]/div[3]/header[1]/div[1]/div[2]/div[1]/form[1]/div[1]/div[2]/button[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://www.etsy.com/search?q=shoes",
+  "target_url_res": [
+    "search?q=shoes"
+  ],
+  "replayable": true
+}

@@ -1,0 +1,21 @@
+{
+  "start_url": "https://www.nike.com/",
+  "query_words": [
+    "find",
+    "shoes"
+  ],
+  "query_annotations": [
+    "",
+    "product"
+  ],
+  "demonstration": [
+    "input_text #shoes# @ id(\"TypeaheadSearchInput\") || /html[1]/body[1]/div[1]/header[1]/nav[1]/section[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"TypeaheadSearchInput\") || /html[1]/body[1]/div[1]/header[1]/nav[1]/section[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://www.nike.com/w?q=shoes&vst=shoes",
+  "target_url_res": [
+    "w?",
+    "q=shoes"
+  ]
+}

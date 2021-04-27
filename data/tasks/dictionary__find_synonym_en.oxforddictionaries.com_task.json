@@ -1,0 +1,27 @@
+{
+  "start_url": "https://en.oxforddictionaries.com/",
+  "query_words": [
+    "find",
+    "synonyms",
+    "of",
+    "intelligent"
+  ],
+  "query_annotations": [
+    "",
+    "type",
+    "",
+    "term"
+  ],
+  "demonstration": [
+    "click ## @ id(\"sbToggle_24261407\") || /html[1]/body[1]/div[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/a[1]",
+    "click ## @ id(\"sbOptions_10222826\")/li[2]/a[1] || /html[1]/body[1]/div[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/ul[1]/li[2]/a[1]",
+    "input_text #intelligent# @ id(\"header\")/div[2]/div[1]/div[1]/div[1]/div[2]/form[1]/fieldset[1]/input[2] || /html[1]/body[1]/div[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[2]/form[1]/fieldset[1]/input[2]",
+    "press_enter ## @ id(\"header\")/div[2]/div[1]/div[1]/div[1]/div[2]/form[1]/fieldset[1]/input[2] || /html[1]/body[1]/div[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[2]/form[1]/fieldset[1]/input[2]"
+  ],
+  "target_text_res": [],
+  "target_url_res": [
+    "synonym/intelligent"
+  ],
+  "target_url": "https://www.lexico.com/en/synonym/intelligent",
+  "replayable": true
+}

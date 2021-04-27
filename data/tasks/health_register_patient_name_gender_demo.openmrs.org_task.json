@@ -1,0 +1,32 @@
+{
+  "start_url": "https://demo.openmrs.org",
+  "query_words": [
+    "register",
+    "a",
+    "male",
+    "patient",
+    "named",
+    "YuanC.",
+    "Lee"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "gender",
+    "",
+    "",
+    "given name",
+    "family name"
+  ],
+  "target_text_res": [],
+  "target_url_res": [],
+  "target_url": "https://demo.openmrs.org/openmrs/registrationapp/registerPatient.page?appId=referenceapplication.registrationapp.registerPatient",
+  "necessary_actions": null,
+  "demonstration": [
+    "click ## @ id(\"referenceapplication-registrationapp-registerPatient-homepageLink-referenceapplication-registrationapp-registerPatient-homepageLink-extension\") || /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/a[3]",
+    "input_text #YuanC.# @ id(\"fr5239-field\") || /html[1]/body[1]/div[1]/div[3]/div[2]/form[1]/section[1]/fieldset[1]/div[1]/p[1]/input[1]",
+    "input_text #Lee# @ id(\"fr5269-field\") || /html[1]/body[1]/div[1]/div[3]/div[2]/form[1]/section[1]/fieldset[1]/div[1]/p[3]/input[1]",
+    "press_enter ## @ id(\"fr5269-field\") || /html[1]/body[1]/div[1]/div[3]/div[2]/form[1]/section[1]/fieldset[1]/div[1]/p[3]/input[1]",
+    "select #0# @ id(\"gender-field\") || /html[1]/body[1]/div[1]/div[3]/div[2]/form[1]/section[1]/fieldset[2]/p[1]/select[1]"
+  ]
+}

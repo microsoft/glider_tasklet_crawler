@@ -1,0 +1,25 @@
+{
+  "start_url": "https://www.macmillandictionary.com/",
+  "query_words": [
+    "find",
+    "synonyms",
+    "of",
+    "intelligent"
+  ],
+  "query_annotations": [
+    "",
+    "type",
+    "",
+    "term"
+  ],
+  "demonstration": [
+    "input_text #intelligent# @ id(\"search_input\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[2]/input[1]",
+    "press_enter ## @ id(\"search_input\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[2]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url_res": [
+    "macmillanthesaurus",
+    "intelligent"
+  ],
+  "target_url": "https://www.macmillanthesaurus.com/intelligent#intelligent__3"
+}

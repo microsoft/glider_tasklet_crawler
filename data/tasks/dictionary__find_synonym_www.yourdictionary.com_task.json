@@ -1,0 +1,30 @@
+{
+  "start_url": "http://www.yourdictionary.com/",
+  "query_words": [
+    "find",
+    "synonyms",
+    "of",
+    "intelligent"
+  ],
+  "query_annotations": [
+    "",
+    "type",
+    "",
+    "term"
+  ],
+  "demonstration": [
+    "input_text #intelligent# @ id(\"app\")/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/input[1] || /html[1]/body[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/input[1]",
+    "press_enter #intelligent# @ id(\"app\")/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/input[1] || /html[1]/body[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/input[1]",
+    "click ## @ id(\"floater-synonyms\")/button[1] || /html[1]/body[1]/div[6]/div[1]/div[2]/div[1]/a[2]/button[1]"
+  ],
+  "target_text_res": [
+    "synonym",
+    "bright"
+  ],
+  "target_url_res": [
+    "thesaurus",
+    "intelligent"
+  ],
+  "target_url": "https://thesaurus.yourdictionary.com/intelligent",
+  "replayable": true
+}

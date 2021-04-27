@@ -1,0 +1,28 @@
+{
+  "start_url": "https://aadl.org/",
+  "query_words": [
+    "find",
+    "books",
+    "by",
+    "author",
+    "Umberto Eco"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "name"
+  ],
+  "demonstration": [
+    "select #1# @ id(\"search-by\") || /html[1]/body[1]/div[1]/div[1]/header[1]/div[2]/form[1]/div[1]/div[1]/select[1]",
+    "input_text #Umberto Eco# @ id(\"search-term\") || /html[1]/body[1]/div[1]/div[1]/header[1]/div[2]/form[1]/div[3]/input[1]",
+    "press_enter ## @ id(\"search-term\") || /html[1]/body[1]/div[1]/div[1]/header[1]/div[2]/form[1]/div[3]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://aadl.org/search/catalog/Umberto%20Eco?author=Umberto%20Eco",
+  "target_url_res": [
+    "author=Umberto%20Eco"
+  ],
+  "replayable": true
+}

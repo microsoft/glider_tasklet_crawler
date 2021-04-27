@@ -1,0 +1,22 @@
+{
+  "start_url": "https://rhymezone.com/",
+  "query_words": [
+    "search",
+    "intelligent"
+  ],
+  "query_annotations": [
+    "",
+    "term"
+  ],
+  "demonstration": [
+    "input_text #intelligent# @ id(\"rzinput\") || /html[1]/body[1]/center[1]/table[1]/tbody[1]/tr[1]/td[3]/table[2]/tbody[1]/tr[1]/td[1]/div[1]/form[1]/input[1]",
+    "press_enter ## @ id(\"rzinput\") || /html[1]/body[1]/center[1]/table[1]/tbody[1]/tr[1]/td[3]/table[2]/tbody[1]/tr[1]/td[1]/div[1]/form[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://rhymezone.com/r/rhyme.cgi?Word=intelligent&typeofrhyme=perfect&org1=syl&org2=l&org3=y",
+  "target_url_res": [
+    "Word=intelligent",
+    "typeofrhyme=perfect"
+  ],
+  "replayable": true
+}

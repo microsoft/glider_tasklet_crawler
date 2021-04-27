@@ -1,0 +1,27 @@
+{
+  "start_url": "https://www.amazon.com/",
+  "query_words": [
+    "find",
+    "shoes",
+    "for",
+    "women"
+  ],
+  "query_annotations": [
+    "",
+    "product",
+    "",
+    "type"
+  ],
+  "demonstration": [
+    "select #16# @ id(\"searchDropdownBox\") || /html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[3]/div[1]/form[1]/div[1]/div[1]/div[1]/select[1]",
+    "input_text #shoes# @ id(\"twotabsearchtextbox\") || /html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[3]/div[1]/form[1]/div[3]/div[1]/input[1]",
+    "click ## @ id(\"nav-search\")/form[1]/div[2]/div[1]/input[1] || /html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[3]/div[1]/form[1]/div[2]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://www.amazon.com/s?k=shoes&i=fashion-womens&ref=nb_sb_noss_2",
+  "target_url_res": [
+    "k=shoes",
+    "i=fashion-womens"
+  ],
+  "replayable": true
+}

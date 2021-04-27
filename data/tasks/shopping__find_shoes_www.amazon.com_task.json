@@ -1,0 +1,21 @@
+{
+  "start_url": "https://www.amazon.com/",
+  "query_words": [
+    "find",
+    "shoes"
+  ],
+  "query_annotations": [
+    "",
+    "product"
+  ],
+  "demonstration": [
+    "input_text #shoes# @ id(\"twotabsearchtextbox\") || /html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[3]/div[1]/form[1]/div[3]/div[1]/input[1]",
+    "click ## @ id(\"nav-search\")/form[1]/div[2]/div[1]/input[1] || /html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[3]/div[1]/form[1]/div[2]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://www.amazon.com/s?k=shoes&ref=nb_sb_noss_1",
+  "target_url_res": [
+    "k=shoes"
+  ],
+  "replayable": true
+}

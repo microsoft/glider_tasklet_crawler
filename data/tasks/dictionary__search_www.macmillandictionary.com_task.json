@@ -1,0 +1,21 @@
+{
+  "start_url": "https://www.macmillandictionary.com/",
+  "query_words": [
+    "search",
+    "intelligent"
+  ],
+  "query_annotations": [
+    "",
+    "term"
+  ],
+  "demonstration": [
+    "input_text #intelligent# @ id(\"search_input\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[2]/input[1]",
+    "press_enter ## @ id(\"search_input\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[2]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url_res": [
+    "dictionary/british/intelligent"
+  ],
+  "target_url": "https://www.macmillandictionary.com/dictionary/british/intelligent",
+  "replayable": true
+}

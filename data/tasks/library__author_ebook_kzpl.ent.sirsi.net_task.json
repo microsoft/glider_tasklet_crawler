@@ -1,0 +1,32 @@
+{
+  "start_url": "https://kzpl.ent.sirsi.net/",
+  "query_words": [
+    "find",
+    "ebooks",
+    "by",
+    "author",
+    "Umberto Eco"
+  ],
+  "query_annotations": [
+    "",
+    "format",
+    "",
+    "",
+    "name"
+  ],
+  "demonstration": [
+    "select #2# @ id(\"restrictionDropDown\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/form[1]/select[1]",
+    "input_text #Umberto Eco# @ id(\"q\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[2]/div[3]/input[1]",
+    "click ## @ id(\"searchButton\") || /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[2]/div[4]/input[1]",
+    "click ## @ id(\"facetERC_FORMAT\")/div[1]/div[1]/input[1] || /html[1]/body[1]/div[4]/div[2]/div[1]/div[1]/div[1]/div[8]/form[1]/div[2]/div[1]/div[1]/input[1]",
+    "click ## @ id(\"facetFormERC_FORMAT\")/div[1]/div[2]/button[1] || /html[1]/body[1]/div[4]/div[2]/div[1]/div[1]/div[1]/div[8]/form[1]/div[1]/div[2]/button[1]"
+  ],
+  "target_url": "https://kzpl.ent.sirsi.net/client/en_US/KPL/search/results?qu=Umberto+Eco&qf=ERC_FORMAT%09Electronic+Format%09HOOPLA+E+BOOK%09HOOPLA+E+BOOK&lm=ALLLIBS&rt=false%7C%7C%7CAUTHOR%7C%7C%7CAuthor",
+  "target_text_res": [],
+  "target_url_res": [
+    "qu=Umberto+Eco",
+    "E+BOOK",
+    "Author"
+  ],
+  "replayable": true
+}

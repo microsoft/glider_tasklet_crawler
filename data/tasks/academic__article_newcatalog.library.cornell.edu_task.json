@@ -1,0 +1,26 @@
+{
+  "start_url": "https://newcatalog.library.cornell.edu/",
+  "query_words": [
+    "find",
+    "articles",
+    "on",
+    "neural networks"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "topic"
+  ],
+  "demonstration": [
+    "input_text #neural networks# @ id(\"q\") || /html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"q\") || /html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url_res": [
+    "catalog",
+    "q=neural+networks"
+  ],
+  "target_url": "https://newcatalog.library.cornell.edu/catalog?utf8=%E2%9C%93&controller=catalog&action=index&q=neural+networks&search_field=all_fields",
+  "replayable": true
+}

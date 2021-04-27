@@ -1,0 +1,25 @@
+{
+  "start_url": "https://www.opentable.com/",
+  "query_words": [
+    "reserve",
+    "a",
+    "table",
+    "at",
+    "Gather Kitchen and Bar"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "",
+    "restaurant"
+  ],
+  "demonstration": [
+    "input_text #Gather Kitchen and Bar# @ id(\"dtp-search-single-box\") || /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/oc-component[1]/div[1]/form[1]/div[2]/span[1]/input[2]",
+    "click ## @ id(\"dtp-picker-160\")/form[1]/input[2] || /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/oc-component[1]/div[1]/form[1]/input[2]"
+  ],
+  "target_text_res": [],
+  "target_url_res": [
+    "term=Gather%20Kitchen%20and%20Bar"
+  ]
+}

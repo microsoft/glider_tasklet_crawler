@@ -1,0 +1,29 @@
+{
+  "start_url": "https://demo.openmrs.org/openmrs/appointmentschedulingui/dailyScheduledAppointments.page",
+  "query_words": [
+    "lookup",
+    "cancelled",
+    "dermatology",
+    "appointments",
+    "at",
+    "Laboratory"
+  ],
+  "query_annotations": [
+    "",
+    "status",
+    "service type",
+    "",
+    "",
+    "location"
+  ],
+  "target_text_res": [],
+  "target_url_res": [],
+  "target_url": "https://demo.openmrs.org/openmrs/appointmentschedulingui/dailyScheduledAppointments.page",
+  "necessary_actions": null,
+  "demonstration": [
+    "select #3# @ id(\"filter-location\")/select[1] || /html[1]/body[1]/div[1]/div[3]/div[2]/div[2]/select[1]",
+    "select #3# @ id(\"filter-appointmentStatusType\")/select[1] || /html[1]/body[1]/div[1]/div[3]/div[2]/div[3]/div[2]/select[1]",
+    "input_text #dermatology# @ id(\"viewAppointmentBlock\") || /html[1]/body[1]/div[1]/div[3]/div[2]/div[3]/selectmultipleappointmenttypes[1]/div[1]/div[1]/div[1]/div[1]/input[1]",
+    "press_enter ## @ id(\"viewAppointmentBlock\") || /html[1]/body[1]/div[1]/div[3]/div[2]/div[3]/selectmultipleappointmenttypes[1]/div[1]/div[1]/div[1]/div[1]/input[1]"
+  ]
+}

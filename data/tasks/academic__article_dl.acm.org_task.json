@@ -1,0 +1,26 @@
+{
+  "start_url": "https://dl.acm.org/",
+  "query_words": [
+    "find",
+    "articles",
+    "on",
+    "neural networks"
+  ],
+  "query_annotations": [
+    "",
+    "",
+    "",
+    "topic"
+  ],
+  "demonstration": [
+    "input_text #neural networks# @ id(\"header\")/table[1]/tbody[1]/tr[2]/td[3]/table[1]/tbody[1]/tr[1]/td[1]/form[1]/span[1]/label[1]/input[1] || /html[1]/body[1]/div[2]/div[1]/table[1]/tbody[1]/tr[2]/td[3]/table[1]/tbody[1]/tr[1]/td[1]/form[1]/span[1]/label[1]/input[1]",
+    "press_enter ## @ id(\"header\")/table[1]/tbody[1]/tr[2]/td[3]/table[1]/tbody[1]/tr[1]/td[1]/form[1]/span[1]/label[1]/input[1] || /html[1]/body[1]/div[2]/div[1]/table[1]/tbody[1]/tr[2]/td[3]/table[1]/tbody[1]/tr[1]/td[1]/form[1]/span[1]/label[1]/input[1]"
+  ],
+  "target_text_res": [],
+  "target_url": "https://dl.acm.org/results.cfm?query=neural+networks&Go.x=0&Go.y=0",
+  "target_url_res": [
+    "results.cfm?",
+    "query=neural+networks"
+  ],
+  "replayable": true
+}
