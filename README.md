@@ -45,12 +45,11 @@ Glider is a tool to extract UI scripts from the web. Given a website URL (e.g., 
 
 To crawl web automation scripts:
 
-1. Add the task definitions into the `data/tasks` directory.
-2. Edit the configuration file in the `configs` directory. In the config file, the `test_tasks` field is used to specify the task descriptions saved in the `data/tasks` directory.
+1. Add the task definitions in the `data/tasks` directory.
+2. Edit the configuration file in the `configs` directory. In the configuration file, the `test_tasks` field is used to specify the task descriptions saved in the `data/tasks` directory.
 3. Start crawling using the `run.py` file. An example command line is:
 
-```
-bash
+``` bash
 cd glider/src
 python run.py --config_path ../configs/unit_conversion.json
 ``` 
