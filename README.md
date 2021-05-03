@@ -56,7 +56,9 @@ python run.py --config_path ../configs/unit_conversion.json
 
 ## Disclaimer
 
-Query examples in the released dataset that appear to be attributed to a user or related user contact information are for illustration only and are fictitious. No real association is intended or inferred.
+The code and dataset in this repository are intended to be used for research purposes. Microsoft takes no responsibility for what users use this tool for or for any damages caused from using this code. By downloading and using this software, you agree that you take full responsibility for any damages and liability.
+
+Query examples in the dataset that appear to be attributed to a user or related user contact information are for illustration only and are fictitious. No real association is intended or inferred.
 
 ## Contributing
 
