@@ -12,6 +12,7 @@ If you use any of the materials in this repository, please cite the following pa
   year = {2021},
   month = jul,
   address = "Online"
+  doi = {10.1145/3404835.3462905}
 }
 ```
 
